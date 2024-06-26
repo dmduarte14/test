@@ -1,0 +1,48 @@
+/*h1 ,h2, h3{
+color: aqua;
+text-align: center;
+}
+
+h1{
+    font-size: 45px;
+  }
+*/
+body{
+background-image: url(./escudo.jpg);
+width: 400px;
+/* height: 400px;*/
+
+}
+.heading{
+color:deeppink;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align:center ;
+}
+
+h1{
+  font-size: 50px;
+
+}
+span  {
+color:blue;
+}
+.span-rojo{
+  color:red;
+
+}
+#idh2
+{
+color:aliceblue;
+
+}
+#span-violeta
+{
+color: blueviolet;
+}
+
+.img-chica{
+  width: 400px;
+ /* height: 400px;*/
+  border: 2px solid red;
+  border-radius: 15px 75px;
+}
