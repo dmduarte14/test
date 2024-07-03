@@ -1,0 +1,139 @@
+*{ /*esto es porque viene por defecto el margen y padding*/
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+h1,h2,h3{font-family:Playwrite Italia Moderna
+    ;
+
+}
+background{
+    background: rgb(2,0,36);
+background: linear-gradient(122deg, rgba(2,0,36,1) 0%, rgba(9,19,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+
+
+h1{
+font-family: Honk;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    padding: 16px 0;
+    position: fixed;
+    width: 100%;
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(255,255,255,1) 100%);
+}
+.contacto-img{
+    width: 50vw;
+    margin: auto;
+}
+
+header h1{
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+     list-style: none; 
+     justify-content: center;
+}
+
+nav ul li {
+   
+    margin: 0 16px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px
+}
+
+nav ul li a:hover{
+    background-color: green;
+    color: #333;
+    border-radius: 5px;
+}
+
+section{
+    padding: 32px 0;
+}
+section h2, section p, section ul{
+    text-align: center;
+    color: #333;
+
+}
+
+section p{
+    padding: 0 40px
+}
+
+section ul li{
+    padding: 8px 0;
+}
+
+form{
+display: flex;
+flex-direction: column;
+width: 500px;
+margin: 0 auto;
+}
+form input, form textarea
+{
+    margin-bottom: 12px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button{
+padding: 12px;
+border: none;
+background-color: #333;
+color:#fff;
+cursor: pointer; /*manito; */
+margin: 5px 10px; 
+width: 100px;
+}
+
+form button:hover{
+background-color: #555;
+
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+.button-delete{
+    background-color: red;
+}
+
+.button-delete:hover{
+    background-color: red;
+}
+
+footer{
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 5px 0;
+position: fixed;
+width: 100%;
+bottom: 0;
+
+}
+

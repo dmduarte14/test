@@ -5,13 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sitio Base</title>
     <link rel="stylesheet" href="style.css">
+    
+    <script src="https://kit.fontawesome.com/2397aeb580.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div>
-            <h1>Sitio Web Standard</h1>
-            
+        <div class ="nav-container">
+            <h1>Sitio Web Standard   <i class="fa-solid fa-book" style="color: #7a7a7a;"></i></h1>
+            <nav>
+            <ul>
+                <li><a href="#home">Inicio <i class="fa-solid fa-book" style="color: #7a7a7a;"></i> </a></li>
+                <li><a href="#about">Acerca de</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="./AREAEDUCATIVA.jpg">html</a></li>
+                <li><a href="https://www.google.com">html</a></li>
+            </ul>
+            </nav>
         </div>
     </header>
+    <main  >
+        <section id="home">
+            <div>
+                <h2>Bienvenidos a nuestro sitio web</h2>
+               
+                <p>Este es un ditio web tipo standard con un estilo simple y prolijo. esta diseñado para uso didactico y facil de entender</p>
+
+            </div>
+        </section>          
+        
+        <section id="about">
+            <div>
+              
+                <h2>Acerca de</h2>
+                
+                <p>Nos especializamos en brindar soluciones web eficientes y efectivas para nuestros clientes.</p>
+
+            </div>
+        </section>          
+        
+        <section id="services">
+            <div>
+                <h2>Servicios</h2>
+                <ul>
+                <li>Desarrollo Web</li>
+                <li>Diseño Responsivo</li>
+                <li>Consultoría Tecnica</li>
+            </ul>
+            </div>
+        </section>    
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre: </label>
+                <input type="text" name="nombre" placeholder="nombre">
+
+                <label for="email">Email: </label>
+                <input type="email" name="Email" placeholder="email">
+                
+                <label for="message">Mensaje: </label>
+                <textarea name="message"></textarea> 
+            
+                <div class="button-container">
+                    <button type="submit">Enviar</button>
+                    <button class="button-delete">Borrar</button>
+                </div>       
+            
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <p>footer</p>
+        </div>
+    </footer>
+
 </body>
 </html>
